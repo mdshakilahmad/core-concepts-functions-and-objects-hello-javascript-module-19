@@ -39,3 +39,11 @@ for (var propertyName in shoppingCart) {
   const value = shoppingCart[propertyName];
   console.log(propertyName, value);
 }
+
+// extra learn : object to Array convert
+const zooFood = {
+  lion: "meat",
+  panda: "bamboo",
+};
+let result = Object.entries(zooFood);
+console.log(result);
